@@ -34,12 +34,14 @@ class MyBot(Bot):
             if player_perspective.get_talon_size() == 2:
                 if len(non_leader_non_trump_suit_moves) > 0:
                     # lose the last trick before the deck runs out
+                    #FIXME and condition use all() to get all card values and min afterwards
                     if len(leader_suit_moves) > 0 and rank_to_points(leader_suit_moves[0].cards[0].rank) < rank_to_points(leader_move.cards[0].rank):
                             return leader_suit_moves[0]
                     return min(non_leader_non_trump_suit_moves, key= lambda move: rank_to_points(move.cards[0].rank))
 
             # Go through plays following leading suit
             if len(leader_suit_moves) > 0:
+                # TODO not if the queen is part of a marriage that can't be played atm
                 # return the lowest card of leader suit higher than played card if possible, lowest otherwise
                 higher_leader_suit_moves = [move for move in leader_suit_moves if rank_to_points(move.cards[0].rank) > rank_to_points(leader_move.cards[0].rank) ]
                 if len(higher_leader_suit_moves) > 0:
@@ -57,7 +59,7 @@ class MyBot(Bot):
             return min(valid_moves, key= lambda move: rank_to_points(move.cards[0].rank))
         
         #
-        #   Leader part
+        #   Leader part Phase 1
         #
         
         if player_perspective.get_talon_size() == 2:
@@ -71,13 +73,19 @@ class MyBot(Bot):
             if len(non_trump_suit_moves) > 0:
                 # play lowest non-trump card
                 return min(non_trump_suit_moves, key= lambda move: rank_to_points(move.cards[0].rank))
-            # play lowest (trump) card - not necessary, wince one can't have 5 trump cards on hand
+            # play lowest (trump) card - not necessary, since one can't have 5 trump cards on hand
             return min(valid_moves, key= lambda move: rank_to_points(move.cards[0].rank))
+        
+        #
+        #   Leader part Phase 2
+        #
+
+        # TODO draw the trump suits out first if our trump suits are higher
         
         suits = ["HEARTS", "SPADES", "CLUBS", "DIAMONDS"]
 
         # cards on my hand divided by suit
-        my_hand_by_suit = {suit: [] for suit in suits}
+        my_hand_by_suit = {suit: [] for suit in suits}  
         for card in player_perspective.get_hand():
             my_hand_by_suit[str(card.suit)].append(card)
 
