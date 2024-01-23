@@ -2,7 +2,7 @@ from typing import Optional
 from schnapsen.game import Bot, PlayerPerspective, Move, SchnapsenTrickScorer, GamePhase, RegularMove
 from schnapsen.game import Card, Suit
 
-class MyBot(Bot):
+class BotC(Bot):
     def __init__(self, name: Optional[str] = None) -> None:
         super().__init__(name)
 

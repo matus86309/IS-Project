@@ -43,21 +43,20 @@ class MyBot(Bot):
             if len(leader_suit_moves) > 0:
                 # TODO not if the queen is part of a marriage that can't be played atm
                 # return the lowest card of leader suit higher than played card if possible, lowest otherwise
-                higher_leader_suit_moves = [move for move in leader_suit_moves if rank_to_points(move.card.rank) > rank_to_points(leader_move.card.rank) ]
-
+                higher_leader_suit_moves = [move for move in leader_suit_moves if rank_to_points(move.cards[0].rank) > rank_to_points(leader_move.cards[0].rank) ]
                 if len(higher_leader_suit_moves) > 0:
-                    return min(higher_leader_suit_moves, key= lambda move: rank_to_points(move.card.rank))
+                    return min(higher_leader_suit_moves, key= lambda move: rank_to_points(move.cards[0].rank))
                 
-            if rank_to_points(leader_move.card.rank) >= 10 and len(trump_suit_moves):
+            if rank_to_points(leader_move.cards[0].rank) >= 10 and len(trump_suit_moves):
                 # play lowest trump card if the value of the card is higher or equal to 10
-                return min(trump_suit_moves, key= lambda move: rank_to_points(move.card.rank))
+                return min(trump_suit_moves, key= lambda move: rank_to_points(move.cards[0].rank))
 
             if len(non_trump_suit_moves) > 0:
                 # return the lowest card of non-trump suit
-                return min(non_trump_suit_moves, key= lambda move: rank_to_points(move.card.rank))
+                return min(non_trump_suit_moves, key= lambda move: rank_to_points(move.cards[0].rank))
             
             # in other cases play lowest possible (trump) card
-            return min(valid_moves, key= lambda move: rank_to_points(move.card.rank))
+            return min(valid_moves, key= lambda move: rank_to_points(move.cards[0].rank))
         
         #
         #   Leader part Phase 1
@@ -66,16 +65,16 @@ class MyBot(Bot):
         if player_perspective.get_talon_size() == 2:
             if len(non_trump_suit_moves) > 0:
                 # lose the last trick before the deck runs out
-                return min(non_trump_suit_moves, key= lambda move: rank_to_points(move.card.rank))
+                return min(non_trump_suit_moves, key= lambda move: rank_to_points(move.cards[0].rank))
             
         if player_perspective.get_phase() == GamePhase.ONE:
 
 
             if len(non_trump_suit_moves) > 0:
                 # play lowest non-trump card
-                return min(non_trump_suit_moves, key= lambda move: rank_to_points(move.card.rank))
+                return min(non_trump_suit_moves, key= lambda move: rank_to_points(move.cards[0].rank))
             # play lowest (trump) card - not necessary, since one can't have 5 trump cards on hand
-            return min(valid_moves, key= lambda move: rank_to_points(move.card.rank))
+            return min(valid_moves, key= lambda move: rank_to_points(move.cards[0].rank))
         
         #
         #   Leader part Phase 2

@@ -7,9 +7,7 @@ from .rdeep import RdeepBot
 from .ml_bot import MLDataBot, MLPlayingBot, train_ML_model
 from .gui.guibot import SchnapsenServer
 from .minimax import MiniMaxBot
-from .bot_a import BotA
-from .bot_b import BotB
-from .bot_c import BotC
+from .my_bot import MyBot
+from .pre_bots__ import MyBotA, MyBotB
 
-__all__ = ["RandBot", "AlphaBetaBot", "RdeepBot", "MLDataBot", "MLPlayingBot", "train_ML_model",
-           "SchnapsenServer", "MiniMaxBot", "BotA", "BotB", "BotC"]
+__all__ = ["RandBot", "AlphaBetaBot", "RdeepBot", "MLDataBot", "MLPlayingBot", "train_ML_model", "SchnapsenServer", "MiniMaxBot", "MyBot", "MyBotA", "MyBotB"]
