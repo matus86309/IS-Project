@@ -1,0 +1,258 @@
+{
+  "duel-results": {
+    "match-victories": { "BotA1": 18, "BotC": 32 },
+    "total-game-points": { "BotA1": 177, "BotC": 299 }
+  },
+  "progress-logs": [
+    {
+      "match-id": 1,
+      "match-results": { "BotA1": 0, "BotC": 7 },
+      "total-results": { "BotA1": 0, "BotC": 7 }
+    },
+    {
+      "match-id": 2,
+      "match-results": { "BotA1": 0, "BotC": 8 },
+      "total-results": { "BotA1": 0, "BotC": 15 }
+    },
+    {
+      "match-id": 3,
+      "match-results": { "BotA1": 5, "BotC": 8 },
+      "total-results": { "BotA1": 5, "BotC": 23 }
+    },
+    {
+      "match-id": 4,
+      "match-results": { "BotA1": 0, "BotC": 7 },
+      "total-results": { "BotA1": 5, "BotC": 30 }
+    },
+    {
+      "match-id": 5,
+      "match-results": { "BotA1": 0, "BotC": 9 },
+      "total-results": { "BotA1": 5, "BotC": 39 }
+    },
+    {
+      "match-id": 6,
+      "match-results": { "BotA1": 8, "BotC": 2 },
+      "total-results": { "BotA1": 13, "BotC": 41 }
+    },
+    {
+      "match-id": 7,
+      "match-results": { "BotA1": 5, "BotC": 8 },
+      "total-results": { "BotA1": 18, "BotC": 49 }
+    },
+    {
+      "match-id": 8,
+      "match-results": { "BotA1": 0, "BotC": 8 },
+      "total-results": { "BotA1": 18, "BotC": 57 }
+    },
+    {
+      "match-id": 9,
+      "match-results": { "BotA1": 1, "BotC": 8 },
+      "total-results": { "BotA1": 19, "BotC": 65 }
+    },
+    {
+      "match-id": 10,
+      "match-results": { "BotA1": 0, "BotC": 9 },
+      "total-results": { "BotA1": 19, "BotC": 74 }
+    },
+    {
+      "match-id": 11,
+      "match-results": { "BotA1": 2, "BotC": 8 },
+      "total-results": { "BotA1": 21, "BotC": 82 }
+    },
+    {
+      "match-id": 12,
+      "match-results": { "BotA1": 0, "BotC": 7 },
+      "total-results": { "BotA1": 21, "BotC": 89 }
+    },
+    {
+      "match-id": 13,
+      "match-results": { "BotA1": 8, "BotC": 6 },
+      "total-results": { "BotA1": 29, "BotC": 95 }
+    },
+    {
+      "match-id": 14,
+      "match-results": { "BotA1": 7, "BotC": 0 },
+      "total-results": { "BotA1": 36, "BotC": 95 }
+    },
+    {
+      "match-id": 15,
+      "match-results": { "BotA1": 4, "BotC": 8 },
+      "total-results": { "BotA1": 40, "BotC": 103 }
+    },
+    {
+      "match-id": 16,
+      "match-results": { "BotA1": 1, "BotC": 7 },
+      "total-results": { "BotA1": 41, "BotC": 110 }
+    },
+    {
+      "match-id": 17,
+      "match-results": { "BotA1": 3, "BotC": 8 },
+      "total-results": { "BotA1": 44, "BotC": 118 }
+    },
+    {
+      "match-id": 18,
+      "match-results": { "BotA1": 8, "BotC": 4 },
+      "total-results": { "BotA1": 52, "BotC": 122 }
+    },
+    {
+      "match-id": 19,
+      "match-results": { "BotA1": 8, "BotC": 0 },
+      "total-results": { "BotA1": 60, "BotC": 122 }
+    },
+    {
+      "match-id": 20,
+      "match-results": { "BotA1": 2, "BotC": 8 },
+      "total-results": { "BotA1": 62, "BotC": 130 }
+    },
+    {
+      "match-id": 21,
+      "match-results": { "BotA1": 0, "BotC": 7 },
+      "total-results": { "BotA1": 62, "BotC": 137 }
+    },
+    {
+      "match-id": 22,
+      "match-results": { "BotA1": 7, "BotC": 2 },
+      "total-results": { "BotA1": 69, "BotC": 139 }
+    },
+    {
+      "match-id": 23,
+      "match-results": { "BotA1": 0, "BotC": 8 },
+      "total-results": { "BotA1": 69, "BotC": 147 }
+    },
+    {
+      "match-id": 24,
+      "match-results": { "BotA1": 3, "BotC": 9 },
+      "total-results": { "BotA1": 72, "BotC": 156 }
+    },
+    {
+      "match-id": 25,
+      "match-results": { "BotA1": 0, "BotC": 8 },
+      "total-results": { "BotA1": 72, "BotC": 164 }
+    },
+    {
+      "match-id": 26,
+      "match-results": { "BotA1": 9, "BotC": 3 },
+      "total-results": { "BotA1": 81, "BotC": 167 }
+    },
+    {
+      "match-id": 27,
+      "match-results": { "BotA1": 8, "BotC": 0 },
+      "total-results": { "BotA1": 89, "BotC": 167 }
+    },
+    {
+      "match-id": 28,
+      "match-results": { "BotA1": 7, "BotC": 4 },
+      "total-results": { "BotA1": 96, "BotC": 171 }
+    },
+    {
+      "match-id": 29,
+      "match-results": { "BotA1": 8, "BotC": 2 },
+      "total-results": { "BotA1": 104, "BotC": 173 }
+    },
+    {
+      "match-id": 30,
+      "match-results": { "BotA1": 7, "BotC": 6 },
+      "total-results": { "BotA1": 111, "BotC": 179 }
+    },
+    {
+      "match-id": 31,
+      "match-results": { "BotA1": 3, "BotC": 7 },
+      "total-results": { "BotA1": 114, "BotC": 186 }
+    },
+    {
+      "match-id": 32,
+      "match-results": { "BotA1": 0, "BotC": 7 },
+      "total-results": { "BotA1": 114, "BotC": 193 }
+    },
+    {
+      "match-id": 33,
+      "match-results": { "BotA1": 1, "BotC": 7 },
+      "total-results": { "BotA1": 115, "BotC": 200 }
+    },
+    {
+      "match-id": 34,
+      "match-results": { "BotA1": 0, "BotC": 7 },
+      "total-results": { "BotA1": 115, "BotC": 207 }
+    },
+    {
+      "match-id": 35,
+      "match-results": { "BotA1": 0, "BotC": 7 },
+      "total-results": { "BotA1": 115, "BotC": 214 }
+    },
+    {
+      "match-id": 36,
+      "match-results": { "BotA1": 0, "BotC": 8 },
+      "total-results": { "BotA1": 115, "BotC": 222 }
+    },
+    {
+      "match-id": 37,
+      "match-results": { "BotA1": 0, "BotC": 7 },
+      "total-results": { "BotA1": 115, "BotC": 229 }
+    },
+    {
+      "match-id": 38,
+      "match-results": { "BotA1": 7, "BotC": 6 },
+      "total-results": { "BotA1": 122, "BotC": 235 }
+    },
+    {
+      "match-id": 39,
+      "match-results": { "BotA1": 9, "BotC": 6 },
+      "total-results": { "BotA1": 131, "BotC": 241 }
+    },
+    {
+      "match-id": 40,
+      "match-results": { "BotA1": 7, "BotC": 2 },
+      "total-results": { "BotA1": 138, "BotC": 243 }
+    },
+    {
+      "match-id": 41,
+      "match-results": { "BotA1": 0, "BotC": 7 },
+      "total-results": { "BotA1": 138, "BotC": 250 }
+    },
+    {
+      "match-id": 42,
+      "match-results": { "BotA1": 1, "BotC": 9 },
+      "total-results": { "BotA1": 139, "BotC": 259 }
+    },
+    {
+      "match-id": 43,
+      "match-results": { "BotA1": 8, "BotC": 4 },
+      "total-results": { "BotA1": 147, "BotC": 263 }
+    },
+    {
+      "match-id": 44,
+      "match-results": { "BotA1": 7, "BotC": 1 },
+      "total-results": { "BotA1": 154, "BotC": 264 }
+    },
+    {
+      "match-id": 45,
+      "match-results": { "BotA1": 3, "BotC": 7 },
+      "total-results": { "BotA1": 157, "BotC": 271 }
+    },
+    {
+      "match-id": 46,
+      "match-results": { "BotA1": 9, "BotC": 1 },
+      "total-results": { "BotA1": 166, "BotC": 272 }
+    },
+    {
+      "match-id": 47,
+      "match-results": { "BotA1": 1, "BotC": 7 },
+      "total-results": { "BotA1": 167, "BotC": 279 }
+    },
+    {
+      "match-id": 48,
+      "match-results": { "BotA1": 3, "BotC": 7 },
+      "total-results": { "BotA1": 170, "BotC": 286 }
+    },
+    {
+      "match-id": 49,
+      "match-results": { "BotA1": 7, "BotC": 6 },
+      "total-results": { "BotA1": 177, "BotC": 292 }
+    },
+    {
+      "match-id": 50,
+      "match-results": { "BotA1": 0, "BotC": 7 },
+      "total-results": { "BotA1": 177, "BotC": 299 }
+    }
+  ]
+}
