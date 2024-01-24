@@ -3,6 +3,7 @@ it by from schnapsen.bots import MyBot.
 """
 from .rand import RandBot
 from .rdeep import RdeepBot
+from .bully_bot import BullyBot
 from .bot_a import BotA
 from .bot_b import BotB
 from .bot_c import BotC
