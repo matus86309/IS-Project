@@ -23,7 +23,7 @@ In case you wish to make further modifications, please reffer to the inline code
 
 ## Adding new bots ## 
 
-To add a new bot simply copy the file into *utils/bots*, refference it in the *utils/bots/__init__.py* file as shown and import it in the test.py file using local imports.
+To add a new bot simply copy the file into *utils/bots*, refference it in the *utils/bots/\__init__.py* file as shown and import it in the test.py file using local imports.
 
 ```Python
 from utils.bots import nameOfYourBot
