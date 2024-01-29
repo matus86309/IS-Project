@@ -8,4 +8,4 @@ from .bot_a import BotA
 from .bot_b import BotB
 from .bot_c import BotC
 
-__all__ = ["RandBot", "RdeepBot", "BotA", "BotB", "BotC"]
+__all__ = ["RandBot", "RdeepBot", "BullyBot", "BotA", "BotB", "BotC"]
